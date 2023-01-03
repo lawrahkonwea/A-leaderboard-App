@@ -1,7 +1,71 @@
-h1 {
-  color: red;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-p {
-  color: aqua;
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: auto 20px;
+}
+
+.score-header {
+  display: flex;
+}
+
+.scores-con {
+  padding: 0 20px 20px 5px;
+  margin-top: 20px;
+  border: 2px solid black;
+  width: 100%;
+}
+
+.add {
+  font-size: 30px;
+}
+
+.leaderboard-con {
+  display: grid;
+  gap: 60px;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+input::placeholder {
+  color: black;
+}
+
+input {
+  display: block;
+  margin-top: 20px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+#refresh {
+  cursor: pointer;
+  background-color: white;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#submit {
+  margin-left: 55%;
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
 }
