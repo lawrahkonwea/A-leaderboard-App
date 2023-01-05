@@ -69,3 +69,15 @@ input {
   background-color: white;
   cursor: pointer;
 }
+
+.tablesss {
+  display: flex;
+  align-items: center;
+  gap: 50%;
+  border: 2px solid black;
+}
+
+#table {
+  border: 1px solid black;
+  width: 100%;
+}
