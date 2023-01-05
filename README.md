@@ -138,14 +138,14 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/lawrahkonwea/A-leaderboard-App.git
 ```
 --->
 
 ### Install
 
 Install this project with:
-
+npm install
 <!--
 Example command:
 
@@ -163,7 +163,7 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  rails server
+  npm start
 ```
 --->
 
@@ -175,7 +175,7 @@ To run tests, run the following command:
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm run build
 ```
 --->
 
@@ -201,7 +201,7 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@githubhandle](https://github.com/lawrahkonwea)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
