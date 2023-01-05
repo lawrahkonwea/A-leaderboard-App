@@ -132,51 +132,51 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
 ```sh
   cd my-folder
   git clone https://github.com/lawrahkonwea/A-leaderboard-App.git
 ```
+<!--
+Example commands:
+
+
 --->
 
 ### Install
 
 Install this project with:
-
-<!--
-Example command:
-
 ```sh
   cd my-project
   npm install
 ```
+<!--
+Example command:
+
+
 --->
 
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
-Example command:
-
 ```sh
   npm start
 ```
+<!--
+Example command:
+
+
 --->
 
 ### Run tests
 
 To run tests, run the following command:
-
-<!--
-Example command:
-
 ```sh
   npm run build
 ```
+<!--
+Example command:
+
+
 --->
 
 ### Deployment
