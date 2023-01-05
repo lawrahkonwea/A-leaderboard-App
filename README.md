@@ -145,13 +145,13 @@ Example commands:
 ### Install
 
 Install this project with:
-npm install
+
 <!--
 Example command:
 
 ```sh
   cd my-project
-  gem install
+  npm install
 ```
 --->
 
