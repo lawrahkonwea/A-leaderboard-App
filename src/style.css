@@ -71,7 +71,7 @@ input {
 }
 
 #refresh:hover {
-  background-color:rgb(13,156,232);
+  background-color: rgb(13, 156, 232);
   transition: 0.9s ease;
   color: white;
 }
@@ -88,7 +88,7 @@ input {
 }
 
 #submit:hover {
-  background-color: rgb(53,203,253);
+  background-color: rgb(53, 203, 253);
   transition: 0.9s ease;
   color: #fff;
 }
@@ -115,7 +115,7 @@ input {
 #table {
   border: 1px solid black;
   width: 100%;
-  background-color:black;
+  background-color: black;
   border-radius: 5px;
   padding: 7px;
 }
