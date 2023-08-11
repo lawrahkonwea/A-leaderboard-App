@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url(images/games.jpg.jpg);
+  background-image: url(images/light-effect.jpg);
 }
 
 section {
@@ -105,9 +105,9 @@ input {
 #table {
   border: 1px solid black;
   width: 100%;
-  background-color: black;
   border-radius: 5px;
   padding: 7px;
+  box-shadow: 8px 8px 10px #2d0f36, -4px -4px 6px #2d0f36;
 }
 
 .listItems {
@@ -120,17 +120,18 @@ input {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .leaderboard-con {
     display: flex;
     flex-direction: column;
   }
 
-  .score-header, h1 {
+  .score-header,
+  h1 {
     margin-top: 50px;
     margin-bottom: 0;
   }
-  
+
   input {
     width: 100%;
   }
@@ -140,4 +141,3 @@ input {
     left: 30%;
   }
 }
-
